@@ -11,7 +11,7 @@ server.use(middlewares);
 server.use(
 	// Add custom route here if needed
 	jsonServer.rewriter({
-		"/users/*": "/$1",
+		"/api/*": "/$1",
 	})
 );
 server.use(router);
