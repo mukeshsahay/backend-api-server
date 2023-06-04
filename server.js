@@ -1,8 +1,8 @@
 // JSON Server module
-/*const jsonServer = require("json-server");
+const jsonServer = require("json-server");
 
 const server = jsonServer.create();
-const router = jsonServer.router("data/data.json");
+const router = jsonServer.router("./data.json");
 const middlewares = jsonServer.defaults();
 
 server.use(middlewares);
@@ -20,9 +20,9 @@ server.listen(3000, () => {
 });
 
 // Export the Server API
-module.exports = server;*/
+module.exports = server;
 
-const jsonServer = require('json-server')
+/*const jsonServer = require('json-server')
 const clone = require('clone')
 const data = require('./data.json')
 
@@ -49,4 +49,4 @@ server.listen(process.env.PORT || 8000, () => {
 })
 
 // Export the Server API
-module.exports = server
+module.exports = server*/
