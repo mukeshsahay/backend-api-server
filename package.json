@@ -9,5 +9,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {},
+  "devDependencies": {
+    "json-server": "^0.17.3"
+  }
 }
